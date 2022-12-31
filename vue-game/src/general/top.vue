@@ -1,6 +1,6 @@
 <template>
   <div id="top">
-   <router-link to="/" id="name">张氏娱乐网</router-link>
+   <router-link to="/" id="name">张氏外卖</router-link>
   </div>
 </template>
 

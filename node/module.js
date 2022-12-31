@@ -32,7 +32,7 @@ const data = mysql.createPool({
   host:'127.0.0.1',   //数据库的ip地址
   user:'root',        //登录数据库的账号
   password:'admin123',//登录数据库的密码
-  database: 'book' //指定要操作哪个数据库
+  database: 'waimai' //指定要操作哪个数据库
 })
 
 //检查是否能正常工作
@@ -51,6 +51,16 @@ router.get('/',(req,res)=>{
   })
   
 })
-
+//主页面的商家信息获取
+router.post('/homeGetData',(req,res)=>{
+  let sql = 
+  `
+  select * from store 
+  where id = ${req.body.id}
+  `
+  data.query(sql,(err,callback)=>{
+    res.send(callback[0])
+  })
+})
 //向外共享路由
 module.exports = router;

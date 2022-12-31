@@ -1,0 +1,10 @@
+store表
+  id 店面的唯一标识
+  name 店面 
+  renjun 店面的人均消费  (默认为0)
+  qisong 起送的价格 (默认为0)
+  diqv 店面的位置
+	
+  class 菜品的分类
+  caipin 所有的菜品都放在这里
+  注:上面两个都需要使用 json格式保存数据
