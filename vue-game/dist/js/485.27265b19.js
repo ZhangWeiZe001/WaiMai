@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkvue_game"]=self["webpackChunkvue_game"]||[]).push([[485],{1485:function(e,n,u){function r(e,n,u,r,t,a){return" 111111 "}u.r(n),u.d(n,{default:function(){return s}});var t={name:"My",setup(){}},a=u(3744);const c=(0,a.Z)(t,[["render",r]]);var s=c}}]);
-//# sourceMappingURL=485.27265b19.js.map

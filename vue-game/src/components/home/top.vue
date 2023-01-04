@@ -25,8 +25,7 @@ name:'Home_Top'
 #Main{
     width: 100%;
     height: 100px;
-    background-image: url("@/assets/img/homeImg/beijing.jpg");
-    background-position: left bottom ;
+    background-color: rgb(255,209,97);
 }
 #content{
     padding-top: 20px;

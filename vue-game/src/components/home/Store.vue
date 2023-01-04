@@ -41,10 +41,9 @@ setup(props,context){
     data.on = true
   }
  )
-
  let data = reactive({
   on:false,
-  store:{}
+  store:{},
  }) 
 
  return{
@@ -73,7 +72,7 @@ setup(props,context){
 #name{
   position: relative;
   left: 30%;
-  top: -60%;
+  top: -60px;
   width: 150px;
   overflow:hidden;
   text-overflow:ellipsis;

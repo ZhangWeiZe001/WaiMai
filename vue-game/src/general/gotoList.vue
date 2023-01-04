@@ -51,7 +51,7 @@ border-top: 1px solid rgba(218, 218, 218, 0.937);
 li{
     float: left;
     padding-left: 20%;
-    padding-top: 3%;
+    padding-top: 15px;
     text-align: center;
 }
 </style>
